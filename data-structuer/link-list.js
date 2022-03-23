@@ -5,7 +5,7 @@ class Node {
   }
 }
 
-class LinkList {
+export default  class LinkList {
   constructor() {
     this.head = null;
     this.size = 0;
@@ -135,16 +135,3 @@ class LinkList {
   }
 }
 
-const one = new LinkList();
-
-one.add(500);
-one.add(600);
-one.add(800);
-one.addLast(400);
-// one.insert(450,4)
-// one.insert(450,5)
-// one.insert(823,4523)
-// one.print();
-// one.find(100);
-// one.delete(0);
-one.indexOfValue(800);
